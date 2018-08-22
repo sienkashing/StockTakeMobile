@@ -1,0 +1,62 @@
+{
+  "name": "StockTakeMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "flow": "flow",
+    "android": "react-native run-android",
+    "storybook": "storybook start -p 7007",
+    "json-server": "json-server -c 'tests/json-server.json' 'tests/db.json'"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "mobx-state-tree": "^2.2.0",
+    "moment": "^2.22.2",
+    "native-base": "^2.6.1",
+    "npm": "^6.1.0",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
+    "react-native-camera": "^1.1.4",
+    "react-native-device-info": "^0.22.0",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.5.5",
+    "react-navigation-fluid-transitions": "^0.2.2",
+    "realm": "^2.12.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addons": "^3.4.8",
+    "@storybook/react-native": "^3.4.8",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-jest": "23.2.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "4.0.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "flow-bin": "^0.67.1",
+    "jest": "23.2.0",
+    "prettier-eslint": "^8.8.2",
+    "prop-types": "^15.6.2",
+    "react-dom": "16.4.1",
+    "react-test-renderer": "16.4.1",
+    "reactotron-react-native": "^1.14.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

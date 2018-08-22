@@ -1,0 +1,96 @@
+{
+  "pscdocs": {
+    "header": [
+      {
+        "iva1_reckey": 16681,
+        "iva1_docno": "IA016681",
+        "iva1_date": "2018-04-28T00:00:00.000Z",
+        "stor_name": "Warehouse Trading Item"
+      },
+      {
+        "iva1_reckey": 16903,
+        "iva1_docno": "IA016903",
+        "iva1_date": "2018-04-30T00:00:00.000Z",
+        "stor_name": "Warehouse Trading Item"
+      }
+    ],
+    "details": [
+      {
+        "iva2_reckey": 16903,
+        "smas_pluno": "99002206",
+        "smas_altno": "99002206",
+        "smas_skuno": "0010001000084",
+        "smas_sdesc": "PAU FLOUR 25KG BLUE ROSE",
+        "smas_ldesc": "PAU FLOUR 25KG BLUE ROSE",
+        "iva2_ohqty": 0,
+        "iva2_remark": "Second doc updated"
+      },
+      {
+        "iva2_reckey": 16903,
+        "smas_pluno": "99003303",
+        "smas_altno": "99003303",
+        "smas_skuno": "0010001000138",
+        "smas_sdesc": "SUPER FINE FLOUR 25KG",
+        "smas_ldesc": "B-SUPER FINE FLOUR 25KG GOLD KEY",
+        "iva2_ohqty": 0,
+        "iva2_remark": ""
+      },
+      {
+        "iva2_reckey": 16903,
+        "smas_pluno": "99005200",
+        "smas_altno": "99005200",
+        "smas_skuno": "0010001000176",
+        "smas_sdesc": "WHEAT STARCH T/M 25KG",
+        "smas_ldesc": "B-WHEAT STARCH T/M 25KG",
+        "iva2_ohqty": 0,
+        "iva2_remark": null
+      }
+    ]
+  },
+  "updatedocs": [
+    {
+      "rec_skuno_key": "16903_0010001000084",
+      "iva2_reckey": 16903,
+      "smas_skuno": "0010001000084",
+      "smas_altno": "99002206",
+      "smas_sdesc": "PAU FLOUR 25KG BLUE ROSE",
+      "smas_ldesc": "PAU FLOUR 25KG BLUE ROSE",
+      "iva2_ohqty": 0,
+      "iva2_pcqty": 21,
+      "iva2_remark": null
+    },
+    {
+      "rec_skuno_key": "16903_0101000001452",
+      "iva2_reckey": 16903,
+      "smas_skuno": "0101000001452",
+      "smas_altno": "0101000001452",
+      "smas_sdesc": "SBERRY RED COLOR (O&W)1KG",
+      "smas_ldesc": "STRAWBERRY RED COLOR (O&W) 1KG",
+      "iva2_ohqty": 0,
+      "iva2_pcqty": 24,
+      "iva2_remark": null
+    },
+    {
+      "rec_skuno_key": "16903_0010001000176",
+      "iva2_reckey": 16903,
+      "smas_skuno": "0010001000176",
+      "smas_altno": "99005200",
+      "smas_sdesc": "WHEAT STARCH T/M 25KG",
+      "smas_ldesc": "B-WHEAT STARCH T/M 25KG",
+      "iva2_ohqty": 0,
+      "iva2_pcqty": 188,
+      "iva2_remark": null
+    },
+    {
+      "rec_skuno_key": "16903_0010001000138",
+      "iva2_reckey": 16903,
+      "smas_skuno": "0010001000138",
+      "smas_altno": "99003303",
+      "smas_sdesc": "SUPER FINE FLOUR 25KG",
+      "smas_ldesc": "B-SUPER FINE FLOUR 25KG GOLD KEY",
+      "iva2_ohqty": 0,
+      "iva2_pcqty": 58,
+      "iva2_remark": null
+    }
+  ]
+}
